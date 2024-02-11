@@ -1,0 +1,10 @@
+version: '3'
+
+includes:
+  default: https://raw.githubusercontent.com/hoomy-official/taskfile-default/main/tasks.yaml
+  git: https://raw.githubusercontent.com/hoomy-official/taskfile-git/main/tasks.yaml
+  markdownlint: ./tasks.yaml
+
+dotenv:
+  - .env
+  - .env.default
