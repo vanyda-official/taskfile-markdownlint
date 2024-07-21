@@ -51,7 +51,7 @@ Assuming you have the following  `Taskfile.yaml`  in your project:
 version: '3'
 
 includes:
-  markdownlint: https://raw.githubusercontent.com/hoomy-official/taskfile-markdownlint/main/tasks.yaml
+  markdownlint: https://raw.githubusercontent.com/vanyda-official/taskfile-markdownlint/main/tasks.yaml
 ```
 
 Initially integrate the Taskfile with the above configuration.
