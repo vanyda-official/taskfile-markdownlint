@@ -3,7 +3,7 @@ version: '3'
 vars:
   DEFAULT_MARKDOWNLINT_CONFIG_FILENAME: '{{.TASKFILE_DIR}}/.markdownlint.yml'
   DEFAULT_MARKDOWNLINT_SOURCES: '**/*.md'
-  DEFAULT_MARKDOWNLINT_ARGS: ''
+  DEFAULT_MARKDOWNLINT_ARGS: '--ignore vendor'
 
 tasks:
   default:
